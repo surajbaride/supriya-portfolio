@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# Supriya Baride - AI Engineer Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, glassmorphism-style portfolio website built with React.js, featuring smooth animations powered by Framer Motion.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- **Glassmorphism Design**: Modern, translucent glass-effect UI
+- **Smooth Animations**: Framer Motion powered animations throughout
+- **Responsive Design**: Fully responsive across all devices
+- **Smooth Navigation**: Fixed navigation bar with active section highlighting
+- **Vercel Ready**: Pre-configured for easy deployment on Vercel
 
-### `npm start`
+## 📁 Project Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
+portfolio/
+├── public/
+│   ├── images/
+│   │   └── profile.jpg (add your profile image here)
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── Navigation.js
+│   │   ├── Hero.js
+│   │   ├── About.js
+│   │   ├── Education.js
+│   │   ├── Experience.js
+│   │   ├── Projects.js
+│   │   ├── Certifications.js
+│   │   ├── Skills.js
+│   │   └── Contact.js
+│   ├── styles/
+│   │   └── App.css
+│   ├── App.js
+│   └── index.js
+└── vercel.json
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Installation
 
-### `npm test`
+1. Install dependencies:
+```bash
+npm install
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Add your profile image:
+   - Place your profile image in `public/images/profile.jpg`
+   - Recommended size: 400x400px or larger (square format)
 
-### `npm run build`
+3. Start the development server:
+```bash
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The app will open at [http://localhost:3000](http://localhost:3000)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📦 Build for Production
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm run build
+```
 
-### `npm run eject`
+This creates an optimized production build in the `build` folder.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🚀 Deploy to Vercel
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Push your code to GitHub
+2. Import your repository to Vercel
+3. Vercel will automatically detect the React app and deploy it
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Or use Vercel CLI:
+```bash
+npm i -g vercel
+vercel
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🎨 Customization
 
-## Learn More
+- **Colors**: Edit CSS variables in `src/styles/App.css` (--primary-gradient, --glass-bg, etc.)
+- **Content**: Update component files in `src/components/`
+- **Animations**: Modify Framer Motion props in each component
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📝 Sections
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Hero**: Introduction with profile image
+- **About**: Personal background and interests
+- **Education**: Academic qualifications
+- **Experience**: Work experience and internships
+- **Projects**: Featured projects with details
+- **Certifications**: Certifications and awards
+- **Skills**: Technical and soft skills
+- **Contact**: Contact information and links
 
-### Code Splitting
+## 🛠️ Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- React.js
+- Framer Motion
+- CSS3 (Glassmorphism)
+- HTML5
 
-### Analyzing the Bundle Size
+## 📄 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This project is private and personal.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Built with ❤️ by Supriya Baride
